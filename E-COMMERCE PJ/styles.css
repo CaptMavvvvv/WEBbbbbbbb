@@ -260,39 +260,3 @@ body {
     color: white;
 }
 
-.product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Adjusts space between items */
-}
-
-.product-item {
-    background-color: #fff; /* Background color for product boxes */
-    border: 1px solid #ccc; /* Border for product boxes */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Padding inside the box */
-    margin: 10px; /* Margin around the boxes */
-    width: calc(20% - 20px); /* Adjust width for compact layout */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    text-align: center; /* Center text */
-}
-
-.product-item img {
-    max-width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove bottom space */
-    margin: 0 auto 10px; /* Center image with margin */
-}
-
-.add-to-cart {
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* Button text color */
-    border: none; /* Remove border */
-    padding: 10px 15px; /* Padding for button */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-.add-to-cart:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-}
